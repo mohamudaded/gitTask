@@ -1,8 +1,9 @@
 name = input("Enter your name:")
+color = input("Enter your favorite color:")
 
 # Added a conditional block
 
-if name == "Aded":
+if name == "Aded" and color == "blue":
     print(f"Welcome {name}, access granted!")
 else:
-    print("Error, wrong name entered. Please try again")
+    print("Error, wrong name entered and color. Please try again")
